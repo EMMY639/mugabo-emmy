@@ -5,25 +5,31 @@
 <title>MUGABO-EMMY | Web Design Kampala</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
-nav{display:flex;justify-content:space-between;padding:18px 5%;border-bottom:1px solid #eee;position:sticky;top:0;background:#fff;z-index:10}
-.logo{font-weight:900;font-size:22px;color:#0f172a}
-.btn{background:#1e3a8a;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:700;display:inline-block}
-.hero{text-align:center;padding:70px 5%;background:#f8fafc}
-.hero h1{font-size:42px;font-weight:900;color:#0f172a}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
-.card{border:1px solid #e2e8f0;border-radius:14px;overflow:hidden;background:#fff;transition:0.2s}
-.card:hover{transform:translateY(-4px);box-shadow:0 10px 25px rgba(0,0,0,0.1)}
+nav{display:flex;justify-content:space-between;padding:18px 5%;background:#000;color:#fff;position:sticky;top:0;z-index:10}
+.logo{font-weight:900;font-size:22px;background:linear-gradient(90deg,#fbbf24,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.btn{background:linear-gradient(90deg,#fbbf24,#ec4899);color:#000;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:900;display:inline-block}
+.hero{text-align:center;padding:70px 5%;background:linear-gradient(135deg,#000000 0%,#1a0a2e 25%,#6d28d9 50%,#ec4899 75%,#fbbf24 100%);color:#fff}
+.hero h1{font-size:42px;font-weight:900;color:#fff}
+.hero p{color:#f3e8ff;margin:16px auto;max-width:600px;font-size:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.card{border:1px solid #e2e8f0;border-radius:14px;overflow:hidden;background:#fff}
 .card img{width:100%;height:190px;object-fit:cover}
-.footer{background:#0f172a;color:#cbd5e1;text-align:center;padding:40px;margin-top:50px}
+.footer{background:#000;color:#cbd5e1;text-align:center;padding:40px;margin-top:50px;border-top:2px solid #fbbf24}
 </style>
 </head>
 <body>
-<nav><div class="logo">MUGABO-EMMY</div><div><a href="https://wa.me/256767374125" class="btn">Contact</a></div></nav>
+<nav><div class="logo">MUGABO-EMMY</div><a href="https://wa.me/256767374125" class="btn">Contact</a></nav>
+
 <div class="hero">
-<h1>We Create Stunning Websites</h1>
-<p style="color:#64748b;margin:16px auto;max-width:600px;font-size:18px">Modern, responsive, conversion-focused websites built to grow your brand in Kampala.</p>
-<a href="#portfolio" class="btn">View Portfolio</a>
+<h1>We Create <span style="color:#fbbf24">Stunning</span> Websites</h1>
+<p>Modern, responsive, conversion-focused websites built to grow your brand in Kampala.</p>
+<a href="#portfolio" class="btn" style="background:#fff;color:#000;margin-top:10px">View Portfolio</a>
+
+<div style="margin-top:30px">
+<img src="pc-mugabo.png" style="width:95%;max-width:650px;border-radius:18px;box-shadow:0 25px 60px rgba(0,0,0,0.6);border:2px solid #fbbf24" alt="MUGABO EMMY WEB DESIGNER AND DEVELOPER">
 </div>
+</div>
+
 <div style="padding:50px 5%;max-width:1200px;margin:auto" id="portfolio">
 <h2 style="font-size:32px;font-weight:900">Our Portfolio</h2>
 <p style="color:#64748b;margin:8px 0 28px">Selected projects showcasing modern design and performance.</p>
@@ -36,6 +42,7 @@ nav{display:flex;justify-content:space-between;padding:18px 5%;border-bottom:1px
 <div class="card"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800"><div style="padding:16px"><h3>Creative Studio</h3><p style="font-size:13px;color:#64748b">Creative Agency</p></div></div>
 </div>
 </div>
+
 <div class="footer"><h2 style="color:#fff;margin-bottom:8px">MUGABO-EMMY Web Design</h2><p>Kampala, Uganda | WhatsApp: +256 767 374 125</p><p style="font-size:12px;opacity:.6;margin-top:12px">© 2026 MUGABO-EMMY. Professional Web Design in Kampala, Uganda. All rights reserved.</p></div>
 </body>
 </html>
